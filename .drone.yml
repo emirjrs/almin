@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: almin
+name: MARS
 
 workspace:
   base: /app
