@@ -2,6 +2,16 @@
 
 A node.js example todo app with drone.io integration for CI/CD demo
 
+### CI/CD --> drone.io cloud
+
+Any change pushed to the repository will trigger build, test & deploy (only in master branch) in drone.io cloud. You can visualize these CI/CD stages by open this URL in ypur browser:
+```
+https://cloud.drone.io/emirjrs/almin
+```
+
+Please, clone this repository,  push some changes to develop or master branch, and then verify URL above.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -32,16 +42,6 @@ docker run -it -v [/your/path/to/cloned/repository/]examples/todomvc:/app:ro -p 
 - Docker (https://www.docker.com)
 - Internet access to docker hub (https://hub.docker.com/)
 - drone.io cli (https://docs.drone.io/cli/install/)
-
-### CI/CD --> drone.io cloud
-
-Any change pushed to the repository will trigger build, test & deploy (only in master branch) in drone.io cloud. You visualize these CI/CD stages in ypur browser:
-```
-https://cloud.drone.io/emirjrs/almin
-```
-
-Please, push some changes and then verify URL above.
-
 
 ## Managing CI/CD
 
