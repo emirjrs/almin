@@ -1,4 +1,4 @@
-# Project Title
+# MARS
 
 A node.js example todo app with drone.io integration for CI/CD demo
 
