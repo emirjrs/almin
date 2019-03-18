@@ -9,7 +9,7 @@ Any change pushed to the repository will trigger build, test & deploy (only in m
 https://cloud.drone.io/emirjrs/almin
 ```
 
-Please, clone this repository,  push some changes to develop or master branch, and then verify URL above.
+Please, clone this repository,  push some changes to develop or master branch, and then verify URL above. Please reach me in order to add you as a collaborator, thanks!!!
 
 
 ## Getting Started
@@ -37,6 +37,9 @@ docker run -it -v [/your/path/to/cloned/repository/]examples/todomvc:/app:ro -p 
 ### Prerequisites
 - Git
 - Github account (https://github.com/)
+
+#### For drone.io cloud only
+- Act as this project collaborator (please reach me in order to add you as such)
 
 #### For local deployments only
 - Docker (https://www.docker.com)
