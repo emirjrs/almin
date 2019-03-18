@@ -26,15 +26,12 @@ docker run -it -v [/your/path/to/cloned/repository/]examples/todomvc:/app:ro -p 
 
 ### Prerequisites
 - Git
+- Github account (https://github.com/)
 
 #### For local deployments only
-- Docker
-- Access to docker hub
+- Docker (https://www.docker.com)
+- Internet access to docker hub (https://hub.docker.com/)
 - drone.io cli (https://docs.drone.io/cli/install/)
-
-```
-Give examples
-```
 
 ### CI/CD --> drone.io cloud
 
